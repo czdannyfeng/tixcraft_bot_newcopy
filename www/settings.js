@@ -277,7 +277,7 @@ function message_old(msg)
 
 function maxbot_launch()
 {
-    run_message("啟動 MaxBot 主程式中...");
+    run_message("啟動 主程式中...");
     save_changes_to_dict(true);
     maxbot_save_api(maxbot_run_api());
 }
