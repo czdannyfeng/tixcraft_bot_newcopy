@@ -1,7 +1,7 @@
 {
-    "homepage": "https://tixcraft.com/activity/detail/25_casty",
+    "homepage": "https://tixcraft.com/activity/detail/24_jaychou",
     "browser": "chrome",
-    "language": "\u7e41\u9ad4\u4e2d\u6587",
+    "language": "English",
     "ticket_number": 4,
     "refresh_datetime": "",
     "ocr_captcha": {
@@ -13,15 +13,15 @@
     "webdriver_type": "undetected_chromedriver",
     "date_auto_select": {
         "enable": true,
-        "date_keyword": "",
+        "date_keyword": "\"06\",\"07\",\"\"",
         "mode": "from top to bottom"
     },
     "area_auto_select": {
         "enable": true,
         "mode": "from top to bottom",
-        "area_keyword": "\"2280\",\"2,280\",\"\""
+        "area_keyword": "\"113\",\"112\",\"114\",\"111\",\"115\",\"110\",\"116\",\"116\",\"5880\",\"5,880\",\"4880\",\"4,880\",\"3880\",\"3,880\",\"3280\",\"3,280\",\"\""
     },
-    "keyword_exclude": "\"\u8f2a\u6905\",\"\u8eab\u969c\",\"\u8eab\u5fc3 \u969c\u7919\",\"Restricted View\",\"\u71c8\u67f1\u906e\u853d\",\"\u8996\u7dda\u4e0d\u5b8c\u6574\",\"3680\",\"3,680\"",
+    "keyword_exclude": "\"\u8f2a\u6905\",\"\u8eab\u969c\",\"\u8eab\u5fc3 \u969c\u7919\",\"Restricted View\",\"\u71c8\u67f1\u906e\u853d\",\"\u8996\u7dda\u4e0d\u5b8c\u6574\",\"C\",\"A1\",\"A6\",\"B1\",\"B6\"",
     "kktix": {
         "auto_press_next_step_button": true,
         "auto_fill_ticket_number": true,
@@ -74,14 +74,14 @@
         "ticketplus_password_plaintext": "",
         "chrome_extension": true,
         "disable_adjacent_seat": false,
-        "hide_some_image": true,
-        "block_facebook_network": true,
+        "hide_some_image": false,
+        "block_facebook_network": false,
         "headless": false,
-        "verbose": false,
+        "verbose": true,
         "auto_guess_options": true,
         "user_guess_string": "",
         "remote_url": "\"http://127.0.0.1:16888/\"",
-        "auto_reload_page_interval": 0.3,
+        "auto_reload_page_interval": 0.1,
         "auto_reload_overheat_count": 4,
         "auto_reload_overheat_cd": 1,
         "reset_browser_interval": 0,

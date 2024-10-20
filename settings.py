@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 #encoding=utf-8
+import argparse
 import asyncio
 import base64
 import json
@@ -39,10 +40,20 @@ try:
 except Exception as exc:
     pass
 
+parser = argparse.ArgumentParser(
+        description="MaxBot Aggument Parser")
+
+parser.add_argument("--input",
+    default="settings.json",
+    help="config file path",
+    type=str)
+
+args = parser.parse_args()
+
 CONST_APP_VERSION = "MaxBot (2024.04.23)"
 
 CONST_MAXBOT_ANSWER_ONLINE_FILE = "MAXBOT_ONLINE_ANSWER.txt"
-CONST_MAXBOT_CONFIG_FILE = "settings.json"
+CONST_MAXBOT_CONFIG_FILE = args.input
 CONST_MAXBOT_EXTENSION_NAME = "Maxbotplus_1.0.0"
 CONST_MAXBOT_EXTENSION_STATUS_JSON = "status.json"
 CONST_MAXBOT_INT28_FILE = "MAXBOT_INT28_IDLE.txt"
